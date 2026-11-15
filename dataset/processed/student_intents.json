@@ -1,0 +1,882 @@
+{
+  "metadata": {
+    "dataset_name": "student_intents",
+    "version": "1.0",
+    "source_file": "dataset/raw/intents.json",
+    "total_intents": 30,
+    "total_patterns": 555,
+    "total_responses": 36
+  },
+  "intents": [
+    {
+      "intent": "admissions",
+      "category": "admissions",
+      "college_specific": true,
+      "patterns": [
+        "what is the process of admission",
+        "what is the admission process",
+        "how to take admission in your college",
+        "what is the process for admission",
+        "admission",
+        "admission process",
+        "how do i apply for admission",
+        "how to apply for admission at the university",
+        "how to apply for admission at this institute",
+        "what is the admission procedure",
+        "tell me about admissions",
+        "tell me the admission process of this college",
+        "what are the admission requirements",
+        "how can students get admission",
+        "admission criteria and entrance exam",
+        "eligibility criteria for admission",
+        "when do admissions start",
+        "online application for admission",
+        "what is the application process for admission",
+        "admissions at the university"
+      ],
+      "responses": [
+        "Admission procedures, eligibility criteria, and online application steps depend on the selected college. Please choose a college to view verified admission details."
+      ]
+    },
+    {
+      "intent": "admission_documents",
+      "category": "admission_documents",
+      "college_specific": true,
+      "patterns": [
+        "document to bring",
+        "documents needed for admission",
+        "documents needed at the time of admission",
+        "documents needed during admission",
+        "documents required for admission",
+        "documents required at the time of admission",
+        "documents required during admission",
+        "what document are required for admission",
+        "which document to bring for admission",
+        "documents",
+        "what documents do i need",
+        "what documents do i need for admission",
+        "documents needed"
+      ],
+      "responses": [
+        "Required admission documents vary by institution and admission quota. Please select a college to view the verified document checklist."
+      ]
+    },
+    {
+      "intent": "seat_intake",
+      "category": "seat_intake",
+      "college_specific": true,
+      "patterns": [
+        "max number of students",
+        "number of seats per branch",
+        "number of seats in each branch",
+        "maximum number of seats",
+        "maximum students intake",
+        "what is college intake",
+        "how many students are taken in each branch",
+        "seat allotment",
+        "seats",
+        "total sanctioned seat intake",
+        "how many seats are available",
+        "branch wise intake capacity"
+      ],
+      "responses": [
+        "Branch-wise sanctioned seat intake differs for each college. Please select a college to check verified seat intake details."
+      ]
+    },
+    {
+      "intent": "courses",
+      "category": "courses",
+      "college_specific": true,
+      "patterns": [
+        "list of courses",
+        "list of courses offered",
+        "what are the courses offered in your college",
+        "courses",
+        "courses offered",
+        "courses offered in college",
+        "courses you offer",
+        "branches",
+        "courses available at college",
+        "branches available at your college",
+        "what are the courses in college",
+        "what are branches in college",
+        "what are courses in college",
+        "branches available in college",
+        "can you tell me the courses available in college",
+        "can you tell me the branches available in college",
+        "computer engineering",
+        "computer",
+        "it",
+        "information technology",
+        "ai/ml",
+        "mechanical engineering",
+        "chemical engineering",
+        "civil engineering",
+        "what courses are offered here",
+        "what courses are offered at the university",
+        "what courses are offered by this institute",
+        "what degree programs are available",
+        "what degree programs are available here",
+        "tell me the courses offered by the college",
+        "programs offered at this university",
+        "undergraduate and postgraduate courses",
+        "btech branches and specializations",
+        "which engineering courses are available",
+        "list of programs offered",
+        "what courses does this institute offer",
+        "tell me about academic courses",
+        "information technology course"
+      ],
+      "responses": [
+        "Offered programs and branches depend on the selected college. Please select a college to view the verified list of courses."
+      ]
+    },
+    {
+      "intent": "syllabus",
+      "category": "syllabus",
+      "college_specific": true,
+      "patterns": [
+        "syllabus for it",
+        "what is the information technology syllabus",
+        "syllabus",
+        "timetable",
+        "what is it syllabus",
+        "what is next lecture",
+        "course syllabus and curriculum",
+        "semester syllabus pdf",
+        "where can i find the syllabus",
+        "academic regulations and syllabus",
+        "btech syllabus copy"
+      ],
+      "responses": [
+        "Course syllabi and class timetables are managed per institution and department. Please select a college to view syllabus and timetable links."
+      ]
+    },
+    {
+      "intent": "examinations",
+      "category": "examinations",
+      "college_specific": true,
+      "patterns": [
+        "exam dates",
+        "exam schedule",
+        "when is semester exam",
+        "semester exam timetable",
+        "sem",
+        "semester",
+        "exam",
+        "when is exam",
+        "exam timetable",
+        "when is semester"
+      ],
+      "responses": [
+        "Semester exam dates, exam schedules, and academic calendars are published per college. Please select a college to check verified examination updates."
+      ]
+    },
+    {
+      "intent": "fees",
+      "category": "fees",
+      "college_specific": true,
+      "patterns": [
+        "information about fee",
+        "information on fee",
+        "tell me the fee",
+        "college fee",
+        "fee per semester",
+        "what is the fee of each semester",
+        "what is the fees of each year",
+        "what is fee",
+        "what is the fees",
+        "how much is the fees",
+        "fees for first year",
+        "fees",
+        "about the fees",
+        "tell me something about the fees",
+        "what is the fees of hostel",
+        "hostel fees",
+        "fees for ac room",
+        "fees for non-ac room",
+        "fees for ac room for girls",
+        "fees for non-ac room for girls",
+        "fees for ac room for boys",
+        "fees for non-ac room for boys",
+        "what is the fee structure",
+        "what is the fee structure of this university",
+        "what is the fee structure of this institute",
+        "what is the annual tuition fee",
+        "btech fee structure",
+        "how much is the annual tuition fee",
+        "tell me the tuition fees",
+        "college tuition fees per year",
+        "what are the fees for btech",
+        "semester and annual fee details",
+        "fee details of the university",
+        "what is the tuition fee for engineering",
+        "how much is the fee per year",
+        "how much does it cost per year",
+        "what is the cost of studying here",
+        "how much does engineering cost per year",
+        "what are the annual charges and fees"
+      ],
+      "responses": [
+        "Tuition, semester, and hostel fee structures vary by college and program. Please select a college to view verified fee details."
+      ]
+    },
+    {
+      "intent": "scholarships",
+      "category": "scholarships",
+      "college_specific": true,
+      "patterns": [
+        "scholarship",
+        "is scholarship available",
+        "scholarship engineering",
+        "scholarship it",
+        "scholarship ce",
+        "scholarship mechanical",
+        "scholarship civil",
+        "scholarship chemical",
+        "scholarship for ai/ml",
+        "available scholarships",
+        "scholarship for computer engineering",
+        "scholarship for it engineering",
+        "scholarship for mechanical engineering",
+        "scholarship for civil engineering",
+        "scholarship for chemical engineering",
+        "list of scholarship",
+        "comps scholarship",
+        "it scholarship",
+        "mechanical scholarship",
+        "civil scholarship",
+        "chemical scholarship",
+        "automobile scholarship",
+        "first year scholarship",
+        "second year scholarship",
+        "third year scholarship",
+        "fourth year scholarship",
+        "are scholarships available at the university",
+        "are scholarships available at this institute",
+        "what scholarships are offered",
+        "what merit scholarships does the university offer",
+        "tell me about financial aid and scholarships",
+        "scholarship eligibility and fee waiver",
+        "does the college provide merit scholarships",
+        "tuition fee reimbursement and scholarships",
+        "how can i get a scholarship",
+        "scholarship schemes for students",
+        "are there fee concessions for meritorious students",
+        "is financial aid available",
+        "do they provide fee waiver or financial aid",
+        "is tuition fee waiver available",
+        "tuition fee waiver for students",
+        "financial assistance and fee concession"
+      ],
+      "responses": [
+        "Available government and institutional scholarships depend on the selected college and eligibility criteria. Please select a college to view verified scholarship details."
+      ]
+    },
+    {
+      "intent": "placements",
+      "category": "placements",
+      "college_specific": true,
+      "patterns": [
+        "what is college placement",
+        "which companies visit in college",
+        "what is average package",
+        "companies visit",
+        "package",
+        "about placement",
+        "placement",
+        "recruitment",
+        "companies",
+        "what are the placement statistics",
+        "what are the placement statistics of the university",
+        "what are the placements at this institute",
+        "placements of the university",
+        "tell me about placements",
+        "how are campus placements",
+        "which companies visit for campus placements",
+        "highest and average placement package",
+        "what is the highest package offered",
+        "placement record and recruiters",
+        "top recruiting companies",
+        "campus recruitment details",
+        "how many placement offers were made",
+        "placement details of the college"
+      ],
+      "responses": [
+        "Placement statistics, recruiting companies, and package details are institution-specific. Please select a college to view verified placement records."
+      ]
+    },
+    {
+      "intent": "internships",
+      "category": "internships",
+      "college_specific": true,
+      "patterns": [
+        "internships",
+        "internship opportunities",
+        "does college provide internships",
+        "summer internship",
+        "internship program",
+        "how to apply for internship",
+        "are internships compulsory",
+        "internship support for students",
+        "industrial training and internships",
+        "internship details",
+        "does the university provide internships",
+        "does this institute provide internships",
+        "are internships offered to students",
+        "tell me about summer internship opportunities here",
+        "internship stipend and training",
+        "industrial internship support",
+        "how does the college help with internships",
+        "paid internship opportunities",
+        "practice school and internships",
+        "internship records of students",
+        "do students get summer internships"
+      ],
+      "responses": [
+        "Internship policies, industrial training support, and partner programs vary by college. Please select a college to view verified internship information."
+      ]
+    },
+    {
+      "intent": "hostel",
+      "category": "hostel",
+      "college_specific": true,
+      "patterns": [
+        "hostel facility",
+        "hostel service",
+        "hostel location",
+        "hostel address",
+        "hostel facilities",
+        "does college provide hostel",
+        "is there any hostel",
+        "where is hostel",
+        "do you have hostel",
+        "do you guys have hostel",
+        "hostel",
+        "hostel capacity",
+        "how to get in hostel",
+        "what is the hostel address",
+        "how far is hostel from college",
+        "hostel college distance",
+        "where is the hostel",
+        "how big is the hostel",
+        "distance between college and hostel",
+        "distance between hostel and college",
+        "what hostel facilities are available",
+        "what hostel facilities are available at the university",
+        "what hostel facilities are available at this institute",
+        "does the college have separate hostels for boys and girls",
+        "are on campus hostels available",
+        "tell me about student accommodation and hostel",
+        "boys and girls hostel rooms",
+        "hostel rules and amenities",
+        "hostel capacity and room types",
+        "is hostel accommodation provided",
+        "ac and non ac hostel rooms",
+        "hostel accommodation at this institute",
+        "hostels at the university"
+      ],
+      "responses": [
+        "Hostel availability, room capacity, rules, and campus distance depend on the selected college. Please select a college to view verified hostel details."
+      ]
+    },
+    {
+      "intent": "library",
+      "category": "library",
+      "college_specific": true,
+      "patterns": [
+        "is there any library",
+        "library facility",
+        "library facilities",
+        "do you have library",
+        "does the college have library facility",
+        "college library",
+        "where can i get books",
+        "book facility",
+        "where is library",
+        "library",
+        "library information",
+        "library books information",
+        "tell me about library",
+        "how many libraries",
+        "where is the central library and what are its hours",
+        "what are the library timings",
+        "what books and digital resources are in the library",
+        "tell me about the central library",
+        "does the campus have a digital library",
+        "how many books and journals are in the library",
+        "library hours and borrowing rules",
+        "library resources and ebooks",
+        "books and journals in college library"
+      ],
+      "responses": [
+        "Library timings, book lending rules, and digital resources vary by institution. Please select a college to view verified library information."
+      ]
+    },
+    {
+      "intent": "facilities",
+      "category": "facilities",
+      "college_specific": true,
+      "patterns": [
+        "size of campus",
+        "building size",
+        "how many floors does college have",
+        "floors in college",
+        "floors",
+        "how is college infrastructure",
+        "infrastructure",
+        "college infrastructure",
+        "what facilities college provide",
+        "college facility",
+        "what are college facilities",
+        "facilities",
+        "facilities provided",
+        "does the university provide bus transport",
+        "campus transportation and bus services",
+        "what campus transportation options are available",
+        "does the college provide transportation buses",
+        "college bus transport service",
+        "transport services for day scholars",
+        "central facilities on campus",
+        "laboratories and campus amenities",
+        "does the college have wifi and transport",
+        "is campus bus transport available"
+      ],
+      "responses": [
+        "Campus facilities, laboratories, classrooms, and infrastructure vary by institution. Please select a college to view verified facility details."
+      ]
+    },
+    {
+      "intent": "canteen",
+      "category": "canteen",
+      "college_specific": true,
+      "patterns": [
+        "food facilities",
+        "canteen facilities",
+        "canteen facility",
+        "is there any canteen",
+        "is there a cafeteria in college",
+        "does college have canteen",
+        "where is canteen",
+        "where is cafeteria",
+        "canteen",
+        "food",
+        "cafeteria",
+        "food menu",
+        "food in canteen",
+        "what is there on menu",
+        "what is available in college canteen",
+        "what foods can we get in college canteen",
+        "food variety",
+        "what is there to eat",
+        "canteen food items",
+        "dining and cafeteria food menu"
+      ],
+      "responses": [
+        "Canteen availability, dining facilities, and food menus differ across campuses. Please select a college to view verified canteen details."
+      ]
+    },
+    {
+      "intent": "sports",
+      "category": "sports",
+      "college_specific": true,
+      "patterns": [
+        "sports and games",
+        "give sports details",
+        "sports infrastructure",
+        "sports facilities",
+        "information about sports",
+        "sports activities",
+        "please provide sports and games information",
+        "campus sports and athletics",
+        "indoor and outdoor sports",
+        "sports ground and stadium",
+        "does the college have sports facilities"
+      ],
+      "responses": [
+        "Sports grounds, indoor games, and athletic programs vary by institution. Please select a college to view verified sports facility information."
+      ]
+    },
+    {
+      "intent": "college_location",
+      "category": "college_location",
+      "college_specific": true,
+      "patterns": [
+        "where is the college located",
+        "college is located at",
+        "where is college",
+        "where is college located",
+        "address of college",
+        "how to reach college",
+        "college location",
+        "college address",
+        "where is the college",
+        "how can i reach college",
+        "what is the college address",
+        "what is the address of college",
+        "address",
+        "location",
+        "campus location",
+        "campus address",
+        "where is the campus located",
+        "where is campus located",
+        "where is the campus",
+        "where is the campus situated",
+        "what is the campus location",
+        "what is the college location",
+        "what is the university location",
+        "what is the location of this college",
+        "what is the location of this university",
+        "what is the location of this institution",
+        "what is the campus location of the university",
+        "what is the campus location of this institute",
+        "campus location of the university",
+        "campus location of the college",
+        "campus location of the institute",
+        "campus location of this academy",
+        "location of the campus",
+        "location of the university",
+        "tell me the campus address",
+        "tell me the college address",
+        "what is the address of this university",
+        "what is the address of this campus",
+        "what is the address of this institution",
+        "where is the university located",
+        "where is the university situated",
+        "where is the institution located",
+        "where is the institution situated",
+        "where is this institute located",
+        "where is the academy located",
+        "how can i reach the campus",
+        "how can i reach this college",
+        "how to reach the university",
+        "how do i reach the campus",
+        "can you tell me where the campus is",
+        "can you tell me the campus location",
+        "directions to reach the campus",
+        "map location of the college"
+      ],
+      "responses": [
+        "Campus address, directions, and map coordinates depend on the selected college. Please select a college to view verified location details."
+      ]
+    },
+    {
+      "intent": "college_hours",
+      "category": "college_hours",
+      "college_specific": true,
+      "patterns": [
+        "timing of college",
+        "what is college timing",
+        "working days",
+        "when are you guys open",
+        "what are your hours",
+        "hours of operation",
+        "when is the college open",
+        "college timing",
+        "what about college timing",
+        "is college open on saturday",
+        "tell something about college timing",
+        "what is the college hours",
+        "when should i come to college",
+        "when should i attend college",
+        "what is my college time",
+        "timing college"
+      ],
+      "responses": [
+        "Working days and college operating hours vary by institution. Please select a college to view verified campus timings."
+      ]
+    },
+    {
+      "intent": "contact_info",
+      "category": "contact_info",
+      "college_specific": true,
+      "patterns": [
+        "more info",
+        "contact info",
+        "how to contact college",
+        "college telephone number",
+        "college number",
+        "what is your contact no",
+        "contact number",
+        "how to call you",
+        "college phone no",
+        "how can i contact you",
+        "can i get your phone number",
+        "how can i call you",
+        "phone number",
+        "phone no",
+        "call",
+        "how can i contact the admissions office",
+        "how can i contact the university",
+        "how can i contact this institute",
+        "what is the helpline phone number and official email",
+        "what is the college email address",
+        "official website and contact number",
+        "admissions helpline number",
+        "how to reach the college office by phone or email",
+        "contact details of the university",
+        "contact details of this institute",
+        "contact information of the college",
+        "registrar and admissions contact info"
+      ],
+      "responses": [
+        "Official telephone numbers, email addresses, and helpdesk contacts vary by college. Please select a college to view verified contact details."
+      ]
+    },
+    {
+      "intent": "campus_events",
+      "category": "campus_events",
+      "college_specific": true,
+      "patterns": [
+        "events organised",
+        "list of events",
+        "list of events organised in college",
+        "list of events conducted in college",
+        "what events are conducted in college",
+        "are there any event held at college",
+        "events",
+        "functions",
+        "what are the events",
+        "tell me about events",
+        "what about events"
+      ],
+      "responses": [
+        "Annual fests, technical symposiums, and campus events are organized independently by each college. Please select a college to view verified event updates."
+      ]
+    },
+    {
+      "intent": "holidays_and_vacations",
+      "category": "holidays_and_vacations",
+      "college_specific": true,
+      "patterns": [
+        "holidays",
+        "when will semester starts",
+        "when will semester end",
+        "when is the holidays",
+        "list of holidays",
+        "holiday in this year",
+        "holiday list",
+        "about vacations",
+        "about holidays",
+        "when is vacation",
+        "when is holidays",
+        "how long will be the vacation"
+      ],
+      "responses": [
+        "Academic calendars, semester start/end dates, and official holiday lists depend on the selected college. Please select a college to view verified holiday schedules."
+      ]
+    },
+    {
+      "intent": "mess_and_bus_timetable",
+      "category": "mess_and_bus_timetable",
+      "college_specific": true,
+      "patterns": [
+        "mess timetable",
+        "what is the mess table",
+        "bus timetable",
+        "what is the timetable",
+        "what is the bus timetable",
+        "what are the college bus routes",
+        "college bus route schedule",
+        "bus schedule and routes",
+        "transport timetable and bus stops",
+        "mess menu and mess schedule",
+        "dining and mess timetable",
+        "what are the bus routes and schedules"
+      ],
+      "responses": [
+        "Hostel mess menus and college bus schedules vary by campus. Please select a college to view verified mess and transport timetables."
+      ]
+    },
+    {
+      "intent": "department_hod",
+      "category": "department_hod",
+      "college_specific": true,
+      "patterns": [
+        "who is hod",
+        "where is hod",
+        "it hod",
+        "name of it hod",
+        "who is computer hod",
+        "where is computer hod",
+        "computer hod",
+        "name of computer hod",
+        "who is extc hod",
+        "where is extc hod",
+        "extc hod",
+        "name of extc hod",
+        "hod",
+        "hod name",
+        "who is the hod"
+      ],
+      "responses": [
+        "Heads of Department (HODs) and office locations differ by college and academic branch. Please select a college and department to view verified HOD details."
+      ]
+    },
+    {
+      "intent": "principal_info",
+      "category": "principal_info",
+      "college_specific": true,
+      "patterns": [
+        "what is the name of principal",
+        "what is the principal name",
+        "principal name",
+        "who is college principal",
+        "where is principal's office",
+        "principal",
+        "name of principal"
+      ],
+      "responses": [
+        "Principal details and administrative office contacts are college-specific. Please select a college to view verified leadership contact information."
+      ]
+    },
+    {
+      "intent": "dress_code",
+      "category": "dress_code",
+      "college_specific": true,
+      "patterns": [
+        "college dress code",
+        "college dresscode",
+        "what is the uniform",
+        "can we wear casuals",
+        "does college have an uniform",
+        "is there any uniform",
+        "uniform",
+        "what about uniform",
+        "do we have to wear uniform",
+        "student uniform and dress rules",
+        "are casual clothes allowed in college"
+      ],
+      "responses": [
+        "Uniform and dress code guidelines vary by institution and department. Please select a college to view verified dress code rules."
+      ]
+    },
+    {
+      "intent": "student_committees",
+      "category": "student_committees",
+      "college_specific": true,
+      "patterns": [
+        "what are the different committee in college",
+        "different committee in college",
+        "are there any committee in college",
+        "give me committee details",
+        "committee",
+        "how many committee are there in college"
+      ],
+      "responses": [
+        "Student clubs, technical chapters, and administrative committees vary by college. Please select a college to view verified committee details."
+      ]
+    },
+    {
+      "intent": "anti_ragging",
+      "category": "anti_ragging",
+      "college_specific": true,
+      "patterns": [
+        "ragging",
+        "is ragging practice active in college",
+        "does college have any antiragging facility",
+        "is there any ragging cases",
+        "is ragging done here",
+        "ragging against",
+        "antiragging facility",
+        "ragging juniors",
+        "ragging history",
+        "ragging incidents"
+      ],
+      "responses": [
+        "Anti-ragging policies, grievance cells, and emergency helpline numbers are maintained per institution. Please select a college to view verified anti-ragging information."
+      ]
+    },
+    {
+      "intent": "general_queries",
+      "category": "general_queries",
+      "college_specific": false,
+      "patterns": [
+        "what can you do",
+        "what are the thing you can do",
+        "things you can do",
+        "what can u do for me",
+        "how u can help me",
+        "why i should use you",
+        "what features do you support",
+        "what kind of questions can i ask"
+      ],
+      "responses": [
+        "I can help answer student queries across multiple colleges, including admissions, courses, fees, scholarships, placements, internships, exams, hostels, library, facilities, sports, and campus locations.",
+        "Ask me any college-related question and select your institution to view verified answers."
+      ]
+    },
+    {
+      "intent": "greeting",
+      "category": "greeting",
+      "college_specific": false,
+      "patterns": [
+        "hi",
+        "how are you",
+        "is anyone there",
+        "hello",
+        "good day",
+        "what's up",
+        "how are ya",
+        "heyy",
+        "whatsup",
+        "hello there",
+        "hi there",
+        "good morning"
+      ],
+      "responses": [
+        "Hello! How can I help you with your college queries today?",
+        "Hi there! Ask me about admissions, courses, fees, hostels, placements, or any other college information.",
+        "Good to see you! Which college query can I help you with?"
+      ]
+    },
+    {
+      "intent": "goodbye",
+      "category": "goodbye",
+      "college_specific": false,
+      "patterns": [
+        "cya",
+        "see you",
+        "bye bye",
+        "see you later",
+        "goodbye",
+        "i am leaving",
+        "bye",
+        "have a good day",
+        "talk to you later",
+        "ttyl",
+        "i got to go",
+        "gtg"
+      ],
+      "responses": [
+        "Goodbye! Feel free to come back anytime with more college questions.",
+        "Talk to you later! Best wishes with your studies.",
+        "See you soon! Reach out anytime you need help."
+      ]
+    },
+    {
+      "intent": "salutation",
+      "category": "salutation",
+      "college_specific": false,
+      "patterns": [
+        "okk",
+        "okie",
+        "nice work",
+        "well done",
+        "good job",
+        "thanks for the help",
+        "thank you",
+        "its ok",
+        "thanks",
+        "good work",
+        "k",
+        "ok",
+        "okay"
+      ],
+      "responses": [
+        "Glad I could help! Let me know if you have any other college queries.",
+        "You're welcome! Anything else I can assist you with?"
+      ]
+    }
+  ]
+}

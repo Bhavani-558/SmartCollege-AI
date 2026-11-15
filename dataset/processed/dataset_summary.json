@@ -1,0 +1,262 @@
+{
+  "original_intent_count": 39,
+  "original_pattern_count": 412,
+  "original_response_count": 50,
+  "cleaned_intent_count": 30,
+  "cleaned_pattern_count": 367,
+  "cleaned_response_count": 36,
+  "removed_duplicate_count": 7,
+  "removed_intents_count": 4,
+  "removed_intents_pattern_count": 41,
+  "dropped_special_patterns_count": 7,
+  "added_internships_patterns_count": 10,
+  "categories_included": [
+    "admissions",
+    "admission_documents",
+    "seat_intake",
+    "courses",
+    "syllabus",
+    "examinations",
+    "fees",
+    "scholarships",
+    "placements",
+    "internships",
+    "hostel",
+    "library",
+    "facilities",
+    "canteen",
+    "sports",
+    "college_location",
+    "college_hours",
+    "contact_info",
+    "campus_events",
+    "holidays_and_vacations",
+    "mess_and_bus_timetable",
+    "department_hod",
+    "principal_info",
+    "dress_code",
+    "student_committees",
+    "anti_ragging",
+    "general_queries",
+    "greeting",
+    "goodbye",
+    "salutation"
+  ],
+  "college_faq_schema_record_count": 150,
+  "college_faq_sample_colleges": [
+    "college_001",
+    "college_002",
+    "college_003",
+    "college_004",
+    "college_005"
+  ],
+  "cleaning_accounting": {
+    "removed_intents": {
+      "creator": {
+        "reason": "Irrelevant developer-credit template intent",
+        "patterns_removed": 16,
+        "responses_removed": 1
+      },
+      "name": {
+        "reason": "Irrelevant template bot-persona intent ('Mind Reader')",
+        "patterns_removed": 13,
+        "responses_removed": 4
+      },
+      "random": {
+        "reason": "Irrelevant personal/romantic chatter",
+        "patterns_removed": 3,
+        "responses_removed": 1
+      },
+      "swear": {
+        "reason": "Inappropriate profanity/abusive language",
+        "patterns_removed": 9,
+        "responses_removed": 2
+      }
+    },
+    "merged_intents": {
+      "facilities": [
+        "facilities",
+        "infrastructure",
+        "floors"
+      ],
+      "canteen": [
+        "canteen",
+        "menu"
+      ],
+      "department_hod": [
+        "hod",
+        "ithod",
+        "computerhod",
+        "extchod"
+      ]
+    },
+    "added_intents": [
+      "internships"
+    ],
+    "dropped_special_patterns": [
+      {
+        "raw_intent": "greeting",
+        "raw_pattern": "??? ??? ??",
+        "reason": "corrupted_non_meaningful"
+      },
+      {
+        "raw_intent": "course",
+        "raw_pattern": "list of courses offered in",
+        "reason": "incomplete_fragment"
+      },
+      {
+        "raw_intent": "hostel",
+        "raw_pattern": "hostel fees",
+        "reason": "cross_intent_disambiguation_to_fees"
+      },
+      {
+        "raw_intent": "hostel",
+        "raw_pattern": "what is the hostel fee",
+        "reason": "cross_intent_disambiguation_to_fees"
+      },
+      {
+        "raw_intent": "floors",
+        "raw_pattern": "how tall is UNI's College of Engineering college building",
+        "reason": "single_college_placeholder_pattern"
+      },
+      {
+        "raw_intent": "Mess Timetable",
+        "raw_pattern": "timetable",
+        "reason": "cross_intent_disambiguation_to_syllabus"
+      },
+      {
+        "raw_intent": "Mess Timetable",
+        "raw_pattern": "Academic Calander",
+        "reason": "cross_intent_disambiguation_to_examinations"
+      }
+    ],
+    "duplicate_removals": [
+      {
+        "cleaned_pattern": "college timing",
+        "raw_pattern": "college timing",
+        "raw_intent": "hours",
+        "kept_in_intent": "college_hours",
+        "duplicate_type": "intra_intent"
+      },
+      {
+        "cleaned_pattern": "computer engineering",
+        "raw_pattern": "Computer engineering?",
+        "raw_intent": "course",
+        "kept_in_intent": "courses",
+        "duplicate_type": "intra_intent"
+      },
+      {
+        "cleaned_pattern": "it",
+        "raw_pattern": "IT",
+        "raw_intent": "course",
+        "kept_in_intent": "courses",
+        "duplicate_type": "intra_intent"
+      },
+      {
+        "cleaned_pattern": "how much is the fees",
+        "raw_pattern": "how much is the fees",
+        "raw_intent": "fees",
+        "kept_in_intent": "fees",
+        "duplicate_type": "intra_intent"
+      },
+      {
+        "cleaned_pattern": "floors in college",
+        "raw_pattern": "floors in college",
+        "raw_intent": "floors",
+        "kept_in_intent": "facilities",
+        "duplicate_type": "intra_intent"
+      },
+      {
+        "cleaned_pattern": "syllabus",
+        "raw_pattern": "syllabus",
+        "raw_intent": "syllabus",
+        "kept_in_intent": "syllabus",
+        "duplicate_type": "intra_intent"
+      },
+      {
+        "cleaned_pattern": "exam dates",
+        "raw_pattern": "exam dates",
+        "raw_intent": "sem",
+        "kept_in_intent": "examinations",
+        "duplicate_type": "intra_intent"
+      }
+    ]
+  },
+  "pending_college_specific_information": [
+    {
+      "category": "admission_documents",
+      "pending_items": [
+        "Complete document checklists for NRIU, SRM-AP, SAHE, and PVPSIT (verified for KLU)"
+      ]
+    },
+    {
+      "category": "seat_intake",
+      "pending_items": [
+        "Branch-wise sanctioned intake numbers for NRIU, SRM-AP, and KLU (verified for SAHE and PVPSIT)"
+      ]
+    },
+    {
+      "category": "syllabus",
+      "pending_items": [
+        "Department-level semester syllabus PDFs for NRIU, SRM-AP, and KLU (academic regulations verified for SAHE and PVPSIT)"
+      ]
+    },
+    {
+      "category": "fees",
+      "pending_items": [
+        "NRIU tuition structure, SRM-AP domestic M.Tech/MBA fee schedules not itemized in prose/undated B.Tech header, and PVPSIT 2026-27 revised fee circular (historical 2024-25 schedule verified)"
+      ]
+    },
+    {
+      "category": "scholarships",
+      "pending_items": [
+        "NRIU scholarship rules and SRM-AP current B.Tech domestic scholarship tiers (PSB BBA verified; KLU, SAHE, and PVPSIT verified)"
+      ]
+    },
+    {
+      "category": "placements_and_internships",
+      "pending_items": [
+        "NRIU placement & internship figures, SAHE overall average CTC & internship stipends, and PVPSIT internship stipend ranges"
+      ]
+    },
+    {
+      "category": "hostel",
+      "pending_items": [
+        "NRIU hostel details and domestic hostel fee tables for SRM-AP, SAHE, and PVPSIT (verified for KLU)"
+      ]
+    },
+    {
+      "category": "campus_operations_and_leadership",
+      "pending_items": [
+        "NRIU HODs, Principal/VC roster, anti-ragging committee/helpline, library timings, sports facilities, and mess/bus schedules"
+      ]
+    }
+  ],
+  "colleges_summary": {
+    "college_001": {
+      "total": 30,
+      "verified": 15,
+      "pending": 15
+    },
+    "college_002": {
+      "total": 30,
+      "verified": 23,
+      "pending": 7
+    },
+    "college_003": {
+      "total": 30,
+      "verified": 28,
+      "pending": 2
+    },
+    "college_004": {
+      "total": 30,
+      "verified": 25,
+      "pending": 5
+    },
+    "college_005": {
+      "total": 30,
+      "verified": 26,
+      "pending": 4
+    }
+  }
+}

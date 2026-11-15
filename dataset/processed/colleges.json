@@ -1,0 +1,830 @@
+{
+  "colleges": [
+    {
+      "college_id": "college_001",
+      "college_name": "NRI University",
+      "official_name": "Dr. RVR NRI Institute of Technology (Deemed to be University)",
+      "short_code": "NRIU",
+      "ugc_status": "An Institution deemed to be University u/s 3 of UGC Act, 1956",
+      "is_primary_profile": true,
+      "profile_status": "PARTIALLY_VERIFIED",
+      "official_sources": [
+        "https://nriuniversity.in/",
+        "https://rvrnriuniversity.edu.in/admissions/",
+        "https://rvrnriuniversity.edu.in/contact-us/"
+      ],
+      "verified_fields": {
+        "college_name": "NRI University",
+        "official_name": "Dr. RVR NRI Institute of Technology (Deemed to be University)",
+        "ugc_status": "An Institution deemed to be University u/s 3 of UGC Act, 1956",
+        "websites": [
+          "https://nriuniversity.in/",
+          "https://rvrnriuniversity.edu.in/",
+          "https://rvrnriuniversity.edu.in/admissions/",
+          "https://rvrnriuniversity.edu.in/contact-us/"
+        ],
+        "campus_address": "Pothavarappadu (V), Via Nunna, Agiripalli (M), Vijayawada Rural, Eluru District, Andhra Pradesh - 521212",
+        "corporate_office_address": "2nd Floor, Renuka Nilayam, Fun Times Road, Teachers Colony, Vijayawada - 520008",
+        "google_maps_url": "https://www.google.com/maps/place/Dr.+RVR+NRI+INSTITUTE+OF+TECHNOLOGY+-+DEEMED+TO+BE+UNIVERSITY,+Agiripalli/@16.6629231,80.7381827,179m/data=!3m1!1e3!4m14!1m7!3m6!1s0x3a35e0d94546c99f:0x94dc5f4441a45bab!2sDr.+RVR+NRI+INSTITUTE+OF+TECHNOLOGY+-+DEEMED+TO+BE+UNIVERSITY,+Agiripalli!8m2!3d16.6631257!4d80.7377657!16s%2Fg%2F1tlzylgt!3m5!1s0x3a35e0d94546c99f:0x94dc5f4441a45bab!8m2!3d16.6631257!4d80.7377657!16s%2Fg%2F1tlzylgt",
+        "phone_numbers": {
+          "general": [
+            "+91 9640334422",
+            "+91 87906 17227"
+          ],
+          "header_contact": [
+            "+91 08662469 666",
+            "+91 9391 878 787"
+          ],
+          "admissions": [
+            "+91 9247598461",
+            "+91 9247598462",
+            "+91 9247598463",
+            "+91 9247598464",
+            "+91 9247598465"
+          ],
+          "allied_health_admissions": [
+            "+91 9000320751",
+            "+91 9642623778",
+            "+91 8096018659"
+          ]
+        },
+        "emails": [
+          "info@rvrnriuniversity.edu.in",
+          "admissions@nriit.edu.in",
+          "support@nriuniversity.in",
+          "principal@nriit.edu.in"
+        ],
+        "schools": [
+          "School of Computer Studies",
+          "School of Engineering",
+          "School of Pharmaceutical Sciences",
+          "School of Science, Humanities and Management",
+          "School of Paramedical & Allied Health Sciences"
+        ],
+        "courses_listed": {
+          "btech": [
+            "Computer Science & Engineering (CSE)",
+            "Computer Science & Engineering (AI & ML)",
+            "Computer Science & Engineering (Data Science)",
+            "Artificial Intelligence & Machine Learning",
+            "Information Technology (IT)",
+            "Cyber Security",
+            "Electronics & Communication Engineering (ECE)",
+            "Electrical & Electronics Engineering (EEE)",
+            "Mechanical Engineering",
+            "Civil Engineering"
+          ],
+          "mtech_and_ms_research": [
+            "M.Tech in Computer Science & Engineering",
+            "M.Tech in VLSI Design & Embedded Systems",
+            "M.Tech in Electrical Vehicle Technology",
+            "M.Tech in Thermal Engineering",
+            "M.Tech in Structural Engineering",
+            "M.Tech CSE - Vedic Mathematics and Computational Intelligence",
+            "M.Tech CSE - Natural Language Processing and Indian Languages",
+            "MS by Research in Environmental Sustainability using Artificial Intelligence",
+            "MS by Research in Renewable Energy Systems for Sustainable Future"
+          ],
+          "pharmacy": [
+            "B.Pharmacy",
+            "Pharm.D",
+            "M.Pharmacy in Pharmaceutics",
+            "M.Pharmacy in Pharmaceutical Analysis",
+            "M.Pharmacy in Pharmaceutical Quality Assurance",
+            "Ph.D. in Pharmacy"
+          ],
+          "management_arts_and_commerce": [
+            "BBA",
+            "MBA (HR / Marketing / Finance)",
+            "MBA Design Thinking for Traditional Ecosystems",
+            "MBA Culture and Heritage Tourism",
+            "B.Sc. in Aviation & Hospitality Management",
+            "M.Com Entrepreneurship and Startup Ecosystem",
+            "B.Sc. in Vedic Sciences and Technology",
+            "M.A. Sports, Yoga and Ethnic Medicine",
+            "M.A. Preservation of Culture and Heritage using AI"
+          ],
+          "allied_health_and_sciences": [
+            "B.Sc. in Cardiovascular Technology",
+            "M.Sc. Cardiovascular Technology (CVT)",
+            "Bachelor of Physiotherapy (BPT)",
+            "Master of Physiotherapy (MPT)",
+            "Bachelor of Anaesthesia & Operation Theatre Technology (B.AOTT)",
+            "Master of Anaesthesia & Operation Theatre Technology (M.AOTT)",
+            "Bachelor of Medical Laboratory Science (B.MLS)",
+            "Master of Medical Laboratory Science (M.MLS)",
+            "Bachelor of Medical Radiology and Imaging Technology (BMRIT)",
+            "Master of Medical Radiology and Imaging Technology",
+            "Bachelor of Emergency Medical Technologist (Paramedic)",
+            "Master of Advanced Care Paramedic (Emergency Medicine)",
+            "Bachelor of Optometry",
+            "Master of Optometry",
+            "Bachelor of Occupational Therapy",
+            "Master of Occupational Therapy",
+            "B.Sc. / M.Sc. in Agriculture",
+            "B.Sc. in Food Technology, Microbiology & Chemistry",
+            "M.Sc. in Food Science & Technology",
+            "B.Sc. in Forensic Science",
+            "M.Sc. in Forensic Science & Criminology",
+            "B.Sc. / M.Sc. in Digital Forensics & Cyber Security",
+            "B.Sc. / M.Sc. in Medical Biotechnology",
+            "B.Sc. in Medical Microbiology",
+            "M.Sc. in Clinical Microbiology",
+            "B.Sc. in Bioinformatics & Biotechnology",
+            "B.Sc. in Biotechnology, Microbiology & Computer Science",
+            "B.Sc. in Digital Health with AI & ML",
+            "B.Sc. in Biomedical Sciences",
+            "B.Sc. / M.Sc. in Genetics & Molecular Biology",
+            "M.Sc. in Biotechnology",
+            "M.Sc. in Clinical Embryology",
+            "M.Sc. in Clinical Research & Experimental Medicine"
+          ],
+          "phd": [
+            "Ph.D. in Pharmacy",
+            "Ph.D. in Civil Engineering",
+            "Ph.D. in Computer Science & Engineering",
+            "Ph.D. in Electronics & Communication Engineering",
+            "Ph.D. in Electrical & Electronics Engineering",
+            "Ph.D. in Mechanical Engineering",
+            "Ph.D. in Chemistry",
+            "Ph.D. in English",
+            "Ph.D. in Mathematics",
+            "Ph.D. in Physics"
+          ]
+        },
+        "admissions_overview": {
+          "portal_url": "https://rvrnriuniversity.edu.in/admissions/",
+          "entrance_test": "NRIUCET 2026",
+          "online_registration_years": [
+            "2026 - 2027",
+            "2027 - 2028"
+          ],
+          "prospectus_url": "https://rvrnriuniversity.edu.in/wp-content/uploads/2026/03/NRIU-Prospectus-2026-2027.pdf"
+        }
+      },
+      "institutional_data": {
+        "location": {
+          "address": "Pothavarappadu (V), Via Nunna, Agiripalli (M), Vijayawada Rural, Eluru District, Andhra Pradesh - 521212",
+          "city": "Agiripalli / Vijayawada Rural",
+          "district_note": "Eluru District (rvrnriuniversity.edu.in) / Krishna District (nriuniversity.in footer)",
+          "state": "Andhra Pradesh",
+          "pincode": "521212",
+          "corporate_office": "2nd Floor, Renuka Nilayam, Fun Times Road, Teachers Colony, Vijayawada 520008",
+          "map_url": "https://www.google.com/maps/place/Dr.+RVR+NRI+INSTITUTE+OF+TECHNOLOGY+-+DEEMED+TO+BE+UNIVERSITY,+Agiripalli/@16.6629231,80.7381827,179m/"
+        },
+        "contact": {
+          "phone_numbers": [
+            "+91 9640334422",
+            "+91 87906 17227"
+          ],
+          "admission_helpline": [
+            "+91 9247598461",
+            "+91 9247598462",
+            "+91 9247598463",
+            "+91 9247598464",
+            "+91 9247598465"
+          ],
+          "allied_health_helpline": [
+            "+91 9000320751",
+            "+91 9642623778",
+            "+91 8096018659"
+          ],
+          "official_email": "info@rvrnriuniversity.edu.in",
+          "additional_emails": [
+            "admissions@nriit.edu.in",
+            "support@nriuniversity.in",
+            "principal@nriit.edu.in"
+          ],
+          "official_website": "https://nriuniversity.in/ (and https://rvrnriuniversity.edu.in/)"
+        },
+        "administration": {
+          "principal_name": "PENDING_VERIFICATION",
+          "hod_names": "PENDING_VERIFICATION"
+        },
+        "admissions": {
+          "admission_details": "Online UG/PG registration (2026-2027, 2027-2028) and NRIUCET 2026 registration available at https://rvrnriuniversity.edu.in/admissions/",
+          "eligibility_criteria_and_cutoffs": "PENDING_VERIFICATION",
+          "required_documents": "PENDING_VERIFICATION",
+          "seat_intake": "PENDING_VERIFICATION"
+        },
+        "academics": {
+          "courses_offered": "Verified UG, PG, Pharmacy, Management, Allied Health Sciences, and Ph.D. programs listed on official admissions and home portals",
+          "syllabus_links": "PENDING_VERIFICATION",
+          "examination_schedule": "PENDING_VERIFICATION",
+          "college_hours": "PENDING_VERIFICATION",
+          "academic_calendar": "PENDING_VERIFICATION"
+        },
+        "fees_and_aid": {
+          "fees": "PENDING_VERIFICATION",
+          "hostel_fees": "PENDING_VERIFICATION",
+          "scholarships": "PENDING_VERIFICATION"
+        },
+        "career_services": {
+          "placement_statistics": "PENDING_VERIFICATION",
+          "internship_policy": "PENDING_VERIFICATION"
+        },
+        "campus_life": {
+          "hostel_details": "PENDING_VERIFICATION",
+          "library_details": "PENDING_VERIFICATION",
+          "facilities": "PENDING_VERIFICATION",
+          "canteen_and_menu": "PENDING_VERIFICATION",
+          "sports_facilities": "PENDING_VERIFICATION",
+          "campus_events": "PENDING_VERIFICATION",
+          "mess_and_bus_timetable": "PENDING_VERIFICATION",
+          "dress_code": "PENDING_VERIFICATION",
+          "student_committees": "PENDING_VERIFICATION",
+          "anti_ragging_helpline": "PENDING_VERIFICATION"
+        },
+        "official_logo_source": "https://nriuniversity.in/new-logo.png"
+      },
+      "last_verified": "2026-11-11",
+      "supported_categories": [
+        "general_information",
+        "admissions",
+        "admission_documents",
+        "seat_intake",
+        "courses",
+        "syllabus",
+        "examinations",
+        "fees",
+        "scholarships",
+        "placements",
+        "internships",
+        "hostel",
+        "library",
+        "facilities",
+        "canteen",
+        "sports",
+        "college_location",
+        "college_hours",
+        "contact_info",
+        "campus_events",
+        "holidays_and_vacations",
+        "mess_and_bus_timetable",
+        "department_hod",
+        "principal_info",
+        "dress_code",
+        "student_committees",
+        "anti_ragging"
+      ],
+      "location": "Agiripalli, Vijayawada Rural, Andhra Pradesh",
+      "logo_url": "/logos/college_001.png"
+    },
+    {
+      "college_id": "college_002",
+      "college_name": "SRM University-AP",
+      "official_name": "SRM University-AP, Andhra Pradesh",
+      "short_code": "SRMAP",
+      "location": "Neerukonda, Mangalagiri, Andhra Pradesh",
+      "logo_url": "/logos/college_002.png",
+      "ugc_status": "Private University established under Andhra Pradesh Private Universities Act",
+      "is_primary_profile": false,
+      "profile_status": "VERIFIED",
+      "official_sources": [
+        "https://www.srmap.edu.in/",
+        "https://www.srmap.edu.in/about-us/contact-us/",
+        "https://www.srmap.edu.in/admission/",
+        "https://www.srmap.edu.in/admission/financial-aid/",
+        "https://www.srmap.edu.in/admission/psb-bba-tuition-fee/",
+        "https://www.srmap.edu.in/admission/psb-mba-programme/",
+        "https://www.srmap.edu.in/admission/seas-btech-eligibility/",
+        "https://www.srmap.edu.in/admission/seas-btech-tuition-fee/",
+        "https://www.srmap.edu.in/admission/seas-mtech-programme/",
+        "https://www.srmap.edu.in/admission/seas-transportation-fee/",
+        "https://www.srmap.edu.in/anti-ragging-committee/",
+        "https://www.srmap.edu.in/crcs/crcs-placement-tracker/",
+        "https://www.srmap.edu.in/international-relations/internships/",
+        "https://www.srmap.edu.in/life-at-srmap/accommodation/",
+        "https://www.srmap.edu.in/life-at-srmap/library/",
+        "https://www.srmap.edu.in/life-at-srmap/sports/",
+        "https://www.srmap.edu.in/life-at-srmap/transportation/",
+        "https://www.srmap.edu.in/wp-content/uploads/2025/05/SRM-UNIVERSITY-AP-transport.pdf"
+      ],
+      "verified_fields": {
+        "college_name": "SRM University-AP",
+        "official_name": "SRM University-AP, Andhra Pradesh",
+        "campus_address": "Neerukonda, Mangalagiri Mandal, Guntur District, Andhra Pradesh - 522240",
+        "phone_numbers": [
+          "+91-863-2343000",
+          "1800-599-2233",
+          "9154947156 (Student Affairs)"
+        ],
+        "emails": [
+          "admissions@srmap.edu.in",
+          "international@srmap.edu.in",
+          "librarian@srmap.edu.in",
+          "student.affairs@srmap.edu.in"
+        ],
+        "schools": [
+          "School of Engineering and Sciences (SEAS)",
+          "Easwari School of Liberal Arts (ESLA)",
+          "Paari School of Business (PSB)"
+        ],
+        "entrance_exams": [
+          "SRMJEEE (UG)",
+          "SRMAPET",
+          "SRMAP-MAT (MBA)"
+        ],
+        "vice_chancellor": "Prof. Ch. Satish Kumar"
+      },
+      "institutional_data": {
+        "official_logo_source": "https://www.srmap.edu.in/wp-content/uploads/2025/01/SRMAP-Icon-150x150.png",
+        "location": {
+          "address": "Neerukonda, Mangalagiri Mandal, Guntur District, Andhra Pradesh - 522240",
+          "city": "Neerukonda, Mangalagiri",
+          "state": "Andhra Pradesh",
+          "pincode": "522240",
+          "map_url": "https://www.srmap.edu.in/about-us/contact-us/#contact_us_map"
+        },
+        "contact": {
+          "phone_numbers": [
+            "+91-863-2343000",
+            "0863-2343000"
+          ],
+          "admission_helpline": [
+            "1800-599-2233",
+            "+91-863-2343000"
+          ],
+          "official_email": "admissions@srmap.edu.in",
+          "official_website": "https://www.srmap.edu.in/"
+        },
+        "administration": {
+          "principal_name": "Prof. Ch. Satish Kumar (Vice Chancellor)",
+          "hod_names": "Selected ARC HODs listed (e.g., Dr. Lakshmi Sirisha Maganti - Mech, Dr. Sunitha KA - ECE); complete HOD directory PENDING_VERIFICATION"
+        },
+        "admissions": {
+          "admission_details": "SRMJEEE (UG) / SRMAPET for Indian B.Tech applicants; 60% minimum aggregate in Class X and 10+2 (Physics, Mathematics + Chemistry/CS/IT); SRMAP-MAT for MBA.",
+          "required_documents": "PENDING_VERIFICATION",
+          "seat_intake": "PENDING_VERIFICATION"
+        },
+        "academics": {
+          "courses_offered": "B.Tech, Integrated M.Tech, M.Tech, B.Sc., M.Sc., BBA, B.Com, MBA, and Ph.D. programs across SEAS, ESLA, and PSB.",
+          "syllabus_links": "PENDING_VERIFICATION",
+          "examination_schedule": "PENDING_VERIFICATION",
+          "college_hours": "PENDING_VERIFICATION",
+          "academic_calendar": "PENDING_VERIFICATION"
+        },
+        "fees_and_aid": {
+          "fees": "SEAS B.Tech (page undated): visible schedule lists CSE Core/AI&ML Rs. 4,50,000/yr, Cyber Security/Big Data/Cloud Rs. 4,00,000/yr, CSE AI&FT & Product Engg with AI Rs. 4,75,000/yr, ECE Rs. 3,00,000/yr, ME/EEE/Civil Rs. 2,50,000/yr (hidden responsive HTML block lists older figures such as Rs. 4,00,000/4,60,000); PSB BBA: Rs. 2,55,000/yr plus Rs. 10,000 registration and Rs. 5,000 caution deposit.",
+          "hostel_fees": "PENDING_VERIFICATION",
+          "scholarships": "PSB BBA Academic Excellence Scholarship (Categories A-D starting Rs. 67,500/yr); B.Tech domestic scholarship slabs PENDING_VERIFICATION"
+        },
+        "career_services": {
+          "placement_statistics": "CRCS Tracker (2021-2026*): 2026* batch highest Rs. 55 LPA, 677 companies visited, 734 offers >= Rs. 5 LPA, 206 >= Rs. 10 LPA, 17 >= Rs. 40 LPA, 1 >= Rs. 50 LPA; 2021-26 tracker avg Rs. 9.20 LPA (CSE), Rs. 7.23 LPA (MBA Management). PSB MBA page reports Rs. 9 LPA avg for 2nd batch.",
+          "internship_policy": "Stipend tracker shows highest internship stipend Rs. 2,25,000/month and overall average Rs. 26,200/month (Rs. 31,320 in 2026)."
+        },
+        "campus_life": {
+          "hostel_details": "4 Men's blocks (~4,000 capacity), 5 Women's blocks (~1,500 capacity), and International Hostel (150-300/block).",
+          "library_details": "12th Floor C.V. Raman Block; 36,414 volumes, 4,59,458 eBooks (JSTOR/DELNET), 54,536 e-journals/magazines, RFID automated.",
+          "facilities": "Campus AC transportation serving Vijayawada, Guntur, Tadepalli, Tenali, and Raintree Park (per seas-transportation-fee/); Central Research Facilities.",
+          "canteen_and_menu": "Vegetarian & non-vegetarian mess dining, food outlets, and tuck shops inside hostels.",
+          "sports_facilities": "Outdoor and indoor sports grounds and athletics infrastructure.",
+          "campus_events": "PENDING_VERIFICATION",
+          "mess_and_bus_timetable": "Day-boarder buses serve Vijayawada (V1-V14), Guntur (G1-G11), Tadepalli (TD), Tenali/Duggirala corridor (TN1-TN2), and Raintree Park (2026-27 fees Rs. 68,000-75,000/yr per seas-transportation-fee/); detailed mess timetable PENDING_VERIFICATION.",
+          "dress_code": "PENDING_VERIFICATION",
+          "student_committees": "Anti-Ragging Committee (ARC) & Student Council",
+          "anti_ragging_helpline": "Campus Student Affairs Helpline: 9154947156 | National Helpline: 1800-180-5522"
+        }
+      },
+      "last_verified": "2026-11-12",
+      "supported_categories": [
+        "admissions",
+        "admission_documents",
+        "seat_intake",
+        "courses",
+        "syllabus",
+        "examinations",
+        "fees",
+        "scholarships",
+        "placements",
+        "internships",
+        "hostel",
+        "library",
+        "facilities",
+        "canteen",
+        "sports",
+        "college_location",
+        "college_hours",
+        "contact_info",
+        "campus_events",
+        "holidays_and_vacations",
+        "mess_and_bus_timetable",
+        "department_hod",
+        "principal_info",
+        "dress_code",
+        "student_committees",
+        "anti_ragging"
+      ]
+    },
+    {
+      "college_id": "college_003",
+      "college_name": "KL Deemed to be University",
+      "official_name": "Koneru Lakshmaiah Education Foundation (Deemed to be University)",
+      "short_code": "KLU",
+      "location": "Vaddeswaram, Guntur District, Andhra Pradesh",
+      "logo_url": "/logos/college_003.png",
+      "ugc_status": "Declared as Deemed to be University u/s 3 of UGC Act 1956 (AICTE Approved, NIRF Rank 26 Universities)",
+      "is_primary_profile": false,
+      "profile_status": "VERIFIED",
+      "official_sources": [
+        "https://www.kluniversity.in/",
+        "https://www.kluniversity.in/PGProgrames.aspx",
+        "https://www.kluniversity.in/accr.aspx",
+        "https://www.kluniversity.in/contact.aspx",
+        "https://www.kluniversity.in/hfee.aspx",
+        "https://www.kluniversity.in/hostels/default.aspx",
+        "https://www.kluniversity.in/howto1.aspx",
+        "https://www.kluniversity.in/ips/default.aspx",
+        "https://www.kluniversity.in/lib/default.aspx",
+        "https://www.kluniversity.in/pdfs/antiragging.pdf",
+        "https://www.kluniversity.in/pdfs/cb2.pdf",
+        "https://www.kluniversity.in/pdfs/dis.pdf",
+        "https://www.kluniversity.in/pdfs/umd.pdf",
+        "https://www.kluniversity.in/placem.aspx",
+        "https://www.kluniversity.in/programmes.aspx",
+        "https://www.kluniversity.in/sports/default.aspx",
+        "https://www.kluniversity.in/sships3.aspx",
+        "https://www.kluniversity.in/transp.aspx"
+      ],
+      "verified_fields": {
+        "college_name": "KL Deemed to be University",
+        "official_name": "Koneru Lakshmaiah Education Foundation (Deemed to be University)",
+        "campus_address": "Green Fields, Vaddeswaram, Guntur District, Andhra Pradesh - 522302",
+        "admin_office": "D.No. 29-36-38, Museum Road, Governorpet, Vijayawada, AP - 520002",
+        "phone_numbers": [
+          "08645-350200",
+          "0866-3500122 (Admin Office)",
+          "9490361111 (Director Admissions)"
+        ],
+        "emails": [
+          "registrar@kluniversity.in",
+          "vc@kluniversity.in",
+          "placements@kluniversity.in"
+        ],
+        "vice_chancellor": "Prof. G. Pardha Saradhi Varma",
+        "registrar": "Prof. Indu Pavan Kumar Konduru",
+        "accreditation": "UGC Deemed-to-be-University u/s 3, AICTE approved, ISO 21001:2018, NIRF Rank 26 (Universities)"
+      },
+      "institutional_data": {
+        "official_logo_source": "https://www.kluniversity.in/img/logo9.png",
+        "location": {
+          "address": "Green Fields, Vaddeswaram, Guntur District, Andhra Pradesh - 522302",
+          "city": "Vaddeswaram, Guntur District",
+          "state": "Andhra Pradesh",
+          "pincode": "522302",
+          "map_url": "https://www.kluniversity.in/contact.aspx"
+        },
+        "contact": {
+          "phone_numbers": [
+            "08645-350200",
+            "0866-3500122"
+          ],
+          "admission_helpline": [
+            "9490361111"
+          ],
+          "official_email": "registrar@kluniversity.in",
+          "official_website": "https://www.kluniversity.in/"
+        },
+        "administration": {
+          "principal_name": "Prof. G. Pardha Saradhi Varma (Vice-Chancellor)",
+          "registrar": "Prof. Indu Pavan Kumar Konduru",
+          "hod_names": "Deans listed in contact directory; complete branch-wise HOD directory PENDING_VERIFICATION"
+        },
+        "admissions": {
+          "admission_details": "Admissions via KLEEE-2026, JEE Mains, and KLECET (Lateral Entry); counselling dates 26-30 April 2026; one-time admission fee Rs. 16,000.",
+          "required_documents": "SSC/Class X, Passport photo, DOB Certificate, Inter marks sheets, Aadhar/Govt Photo ID, KLEEE 2026 Rank Card, Reservation certificate, awards certificates.",
+          "seat_intake": "PENDING_VERIFICATION"
+        },
+        "academics": {
+          "courses_offered": "B.Tech, M.Tech, MBA, MCA, BBA, BCA, B.Sc.(Hons) Agriculture, B.Pharmacy, Pharm.D, BBA-LLB, M.Sc., and Ph.D. programs.",
+          "syllabus_links": "https://www.kluniversity.in/programmes.aspx",
+          "examination_schedule": "https://www.kluniversity.in/pdfs/umd.pdf",
+          "college_hours": "PENDING_VERIFICATION",
+          "academic_calendar": "https://www.kluniversity.in/site/acadcal.htm"
+        },
+        "fees_and_aid": {
+          "fees": "2026-27 Vijayawada Campus tuition/semester: B.Tech CSE Rs. 1,47,500; AI&DS Rs. 1,40,000; CS&IT Rs. 1,37,500; ECE/IoT/BT Rs. 1,27,500; ME/EEE Rs. 1,17,500; CE Rs. 1,15,000; MBA Rs. 1,62,500; M.Tech CSE Rs. 80,000; MCA Rs. 1,25,000; plus Rs. 16,000 one-time admission fee.",
+          "hostel_fees": "2026-27 Vaddeswaram Campus: Non-AC Common Toilet 4-Bed Rs. 1,34,100; 3-Bed Rs. 1,39,100; 1-Bed Rs. 1,49,100; Attached 4/3/2-Bed Rs. 1,39,100 / 1,44,100 / 1,49,100 (plus Rs. 5,000 registration & electricity deposit).",
+          "scholarships": "KLEEE-2026 / JEE Mains percentile merit fee concessions (up to 50%/100% slabs), plus Rs. 10,000/yr special scholarships for SC/ST/PwD/Siblings/Single Girl Child/Alumni children/Ex-Army and Sports 25%-100% waivers."
+        },
+        "career_services": {
+          "placement_statistics": "Per 2026 Counselling Booklet (placement cycle year unspecified): Rs. 81 LPA highest CTC, Rs. 7.25 LPA Engineering median CTC, 5,000+ students placed in a single academic year, 6,500+ job offers, 500+ global recruiting companies.",
+          "internship_policy": "Industrial Practice School (IPS) since 2012-13: 1-month summer internship after 2nd year and 7th/8th sem Practice School; 12,000+ stipend internships in 2024-25."
+        },
+        "campus_life": {
+          "hostel_details": "Boys, Girls, and Guest House hostels with Single/Double/Triple/4-bed rooms, Wi-Fi, gym, mini theatre, laundry, North/South Indian & international dining.",
+          "library_details": "Central Library at Vaddeswaram campus providing print collections, digital databases, and research portals.",
+          "facilities": "102 Non-AC + 2 AC buses (5,400 seat capacity across 2 shifts), 24-hr ambulance, Data Center, Incubation Centers, Sports & Hostels.",
+          "canteen_and_menu": "North Indian, South Indian, and Thai/Chinese/Continental dining halls.",
+          "sports_facilities": "Campus Sports Facilities and Physical Education programs (sports/default.aspx).",
+          "campus_events": "PENDING_VERIFICATION",
+          "mess_and_bus_timetable": "104 buses across Vijayawada, Guntur, Tenali, Mangalagiri, Vuyyuru, Kankipadu & Dondapadu; Vijayawada base bus fee Rs. 25,000.",
+          "dress_code": "PENDING_VERIFICATION",
+          "student_committees": "SAC, NSS, NCC, CEA, YRC, WDC, Student Grievance Redressal Committee",
+          "anti_ragging_helpline": "Zero-tolerance policy; National Toll-Free Helpline: 1800-180-5522"
+        }
+      },
+      "last_verified": "2026-11-12",
+      "supported_categories": [
+        "admissions",
+        "admission_documents",
+        "seat_intake",
+        "courses",
+        "syllabus",
+        "examinations",
+        "fees",
+        "scholarships",
+        "placements",
+        "internships",
+        "hostel",
+        "library",
+        "facilities",
+        "canteen",
+        "sports",
+        "college_location",
+        "college_hours",
+        "contact_info",
+        "campus_events",
+        "holidays_and_vacations",
+        "mess_and_bus_timetable",
+        "department_hod",
+        "principal_info",
+        "dress_code",
+        "student_committees",
+        "anti_ragging"
+      ]
+    },
+    {
+      "college_id": "college_004",
+      "college_name": "Siddhartha Academy of Higher Education",
+      "official_name": "Siddhartha Academy of Higher Education (Deemed to be University), formerly VRSEC",
+      "short_code": "SAHE",
+      "location": "Kanuru, Vijayawada, Andhra Pradesh",
+      "logo_url": "/logos/college_004.jpg",
+      "ugc_status": "Deemed to be University u/s 3 of UGC Act 1956 (MoE notification dated 11 March 2024; formerly VRSEC est. 1977)",
+      "is_primary_profile": false,
+      "profile_status": "VERIFIED",
+      "official_sources": [
+        "https://admissions.siddhartha.edu.in/",
+        "https://siddhartha.edu.in/",
+        "https://siddhartha.edu.in/academic-calendar/",
+        "https://siddhartha.edu.in/academic-programs/",
+        "https://siddhartha.edu.in/academic-regulations/",
+        "https://siddhartha.edu.in/anti-ragging/",
+        "https://siddhartha.edu.in/central-facilities/",
+        "https://siddhartha.edu.in/central-library/",
+        "https://siddhartha.edu.in/contact-us/",
+        "https://siddhartha.edu.in/deans/",
+        "https://siddhartha.edu.in/hostels/",
+        "https://siddhartha.edu.in/overview/",
+        "https://siddhartha.edu.in/placements/statistics/",
+        "https://siddhartha.edu.in/scholarships/",
+        "https://siddhartha.edu.in/schools/",
+        "https://siddhartha.edu.in/sports/",
+        "https://siddhartha.edu.in/wp-content/uploads/2025/11/Proforma-of-Public-Self-Disclosure.pdf",
+        "https://siddhartha.edu.in/wp-content/uploads/2026/01/Fee-details.pdf"
+      ],
+      "verified_fields": {
+        "college_name": "Siddhartha Academy of Higher Education",
+        "official_name": "Siddhartha Academy of Higher Education (Deemed to be University), formerly Velagapudi Ramakrishna Siddhartha Engineering College (VRSEC)",
+        "former_name": "Velagapudi Ramakrishna Siddhartha Engineering College (VRSEC), established 1977",
+        "campus_address": "Kanuru, Vijayawada, Andhra Pradesh",
+        "phone_numbers": [
+          "0866-2582333 (Ext-662 Registrar, Ext 106/116 Verification)",
+          "0866-2584930",
+          "9440219816 / 8919854050 (Placements)"
+        ],
+        "emails": [
+          "registrar@siddhartha.edu.in",
+          "deanadmissions@vrsiddhartha.ac.in",
+          "placements@vrsiddhartha.ac.in",
+          "verifications@vrsiddhartha.ac.in"
+        ],
+        "chancellor": "Sri K. V. Chowdary, IRS (Retd.)",
+        "vice_chancellor": "Dr. Venkateswara Rao Paruchuri",
+        "pro_vice_chancellor": "Dr. A. V. Ratna Prasad",
+        "registrar_email": "registrar@siddhartha.edu.in",
+        "accreditation": "UGC Deemed-to-be-University (w.e.f. 11 March 2024), NAAC A+ Grade (2021), NBA accredited since 1998, ISO 21001:2018"
+      },
+      "institutional_data": {
+        "official_logo_source": "https://siddhartha.edu.in/wp-content/uploads/2024/10/favicon-150x150.jpeg",
+        "location": {
+          "address": "Kanuru, Vijayawada, Andhra Pradesh",
+          "city": "Kanuru, Vijayawada",
+          "state": "Andhra Pradesh",
+          "map_url": "https://siddhartha.edu.in/contact-us/"
+        },
+        "contact": {
+          "phone_numbers": [
+            "0866-2582333",
+            "0866-2584930"
+          ],
+          "admission_helpline": [
+            "0866-2582333"
+          ],
+          "official_email": "registrar@siddhartha.edu.in",
+          "official_website": "https://siddhartha.edu.in/"
+        },
+        "administration": {
+          "principal_name": "Dr. Venkateswara Rao Paruchuri (Vice Chancellor)",
+          "registrar_contact": "registrar@siddhartha.edu.in (0866-2582333 Ext-662)",
+          "hod_names": "School Deans listed on siddhartha.edu.in/deans/; department-wise HOD contacts PENDING_VERIFICATION"
+        },
+        "admissions": {
+          "admission_details": "Online applications at https://admissions.siddhartha.edu.in/ considering SEEE Rank, JEE %, and APEAPCET Rank for B.Tech, plus PG/Law/Management intakes.",
+          "required_documents": "PENDING_VERIFICATION",
+          "seat_intake": "2026-27 B.Tech CSE 420, ECE 240, AI&DS 180, AI&ML 180, EEE 120, EIE 120, CE 60, ME 60; LL.B. 180, BA LL.B. 120, BBA 60, BBA LL.B. 60, MBA 60, MCA 60, M.Tech 72 across 6 specs."
+        },
+        "academics": {
+          "courses_offered": "B.Tech (CSE, CSE-AI&DS, CSE-AI&ML, ECE, EEE, EIE, Civil, Mechanical), M.Tech, MBA, MCA, BBA, LL.B., B.A./B.B.A. LL.B., LL.M., B.Com (Hons), and B.Sc. (Hons) across 5 schools.",
+          "syllabus_links": "https://siddhartha.edu.in/academic-regulations/",
+          "examination_schedule": "Controller of Examinations: Dr. T. Anuradha (coe@vrsiddhartha.ac.in); A.Y. 2026-27 calendars published.",
+          "college_hours": "PENDING_VERIFICATION",
+          "academic_calendar": "https://siddhartha.edu.in/academic-calendar/"
+        },
+        "fees_and_aid": {
+          "fees": "2026-27 Annual Tuition Fee: B.Tech CSE/AI&ML/AI&DS Rs. 2,50,000; ECE Rs. 1,65,000; CE/EEE/EIE/ME Rs. 1,00,000 (+ Rs. 10,000 admission fee); MBA Rs. 1,25,000; MCA Rs. 1,00,000; M.Tech/BBA Rs. 80,000; LL.M. Rs. 50,000; B.Com/B.Sc. Rs. 35,000.",
+          "hostel_fees": "PENDING_VERIFICATION",
+          "scholarships": "2026-27 Merit Scholarships (capped at 30% intake) offering 10%-100% waivers based on SEEE, JEE %, and APEAPCET ranks; renewal needs 75% attendance & 7.5 CGPA with no backlogs."
+        },
+        "career_services": {
+          "placement_statistics": "2025-26 Placements (SAHE Statistics portal): 1,920* total company offers led by TCS (251), Capgemini (213), Accenture (210), Infosys (169), LTI Mindtree (152), Cognizant (140); highest published 2025-26 offers Amazon Rs. 48 LPA and Myntra Rs. 35.50 LPA (overall average CTC not published).",
+          "internship_policy": "Industry Relations & Placements office facilitates internships; exact student internship counts PENDING_VERIFICATION"
+        },
+        "campus_life": {
+          "hostel_details": "Boys and girls hostels for 725+ students (100% accommodation for girls), 40 Cisco Wi-Fi APs, AC/Non-AC gym, digital library, 24/7 security.",
+          "library_details": "Central Library (1,300 sq. m.): 78,514 volumes, 19,454 titles, 6,000 e-books, 536 e-journals, SC/ST Book Bank (14,278), 8 AM-8 PM.",
+          "facilities": "Central facilities include cafeterias, internet/campus Wi-Fi, bank, transportation, vehicle parking, sports arenas.",
+          "canteen_and_menu": "Campus food court, separate veg/non-veg & Chinese hostel mess with steam cooking.",
+          "sports_facilities": "10 acres playfields, Rs. 6.5 Cr new Indoor Stadium (12 games), 400m 8-lane track, 5 volleyball courts, football & cricket nets.",
+          "campus_events": "PENDING_VERIFICATION",
+          "mess_and_bus_timetable": "Campus transportation listed under Central Facilities; exact route table PENDING_VERIFICATION",
+          "dress_code": "PENDING_VERIFICATION",
+          "student_committees": "Anti-Ragging Committee, Internal Complaints Committee, IQAC, NSS, NCC",
+          "anti_ragging_helpline": "Campus Anti-Ragging Committee maintains zero reported cases through vigilance patrols and signed declarations."
+        }
+      },
+      "last_verified": "2026-11-12",
+      "supported_categories": [
+        "admissions",
+        "admission_documents",
+        "seat_intake",
+        "courses",
+        "syllabus",
+        "examinations",
+        "fees",
+        "scholarships",
+        "placements",
+        "internships",
+        "hostel",
+        "library",
+        "facilities",
+        "canteen",
+        "sports",
+        "college_location",
+        "college_hours",
+        "contact_info",
+        "campus_events",
+        "holidays_and_vacations",
+        "mess_and_bus_timetable",
+        "department_hod",
+        "principal_info",
+        "dress_code",
+        "student_committees",
+        "anti_ragging"
+      ]
+    },
+    {
+      "college_id": "college_005",
+      "college_name": "Prasad V Potluri Siddhartha Institute of Technology",
+      "official_name": "Prasad V Potluri Siddhartha Institute of Technology (Autonomous)",
+      "short_code": "PVPSIT",
+      "location": "Kanuru, Vijayawada, Andhra Pradesh",
+      "logo_url": "/logos/college_005.png",
+      "ugc_status": "Autonomous Institution (since 2012), Permanently Affiliated to JNTUK Kakinada, Approved by AICTE",
+      "is_primary_profile": false,
+      "profile_status": "VERIFIED",
+      "official_sources": [
+        "https://www.pvpsiddhartha.ac.in/",
+        "https://www.pvpsiddhartha.ac.in/academicregulations_n.html",
+        "https://www.pvpsiddhartha.ac.in/admission_procedure.html",
+        "https://www.pvpsiddhartha.ac.in/antiragging.html",
+        "https://www.pvpsiddhartha.ac.in/contact_us_new.html",
+        "https://www.pvpsiddhartha.ac.in/department_sport.html",
+        "https://www.pvpsiddhartha.ac.in/department_tp.html",
+        "https://www.pvpsiddhartha.ac.in/examination_section.html",
+        "https://www.pvpsiddhartha.ac.in/feestructure.html",
+        "https://www.pvpsiddhartha.ac.in/hostel.html",
+        "https://www.pvpsiddhartha.ac.in/library.html",
+        "https://www.pvpsiddhartha.ac.in/mandatory/Compliance-MandatoryDisclosures-PVPSIT_2024-25.pdf",
+        "https://www.pvpsiddhartha.ac.in/programesoffered_n.html"
+      ],
+      "verified_fields": {
+        "college_name": "Prasad V Potluri Siddhartha Institute of Technology",
+        "official_name": "Prasad V Potluri Siddhartha Institute of Technology (Autonomous)",
+        "campus_address": "Devabhaktuni Ramalingeswara Rao Road, Kanuru, Vijayawada, Krishna (Dt.), Andhra Pradesh - 520007",
+        "phone_numbers": [
+          "0866-2581699",
+          "9490958212 (Principal)",
+          "0866-2581699 extn.250 (T&P)",
+          "+91-866-6528285 (T&P Direct)"
+        ],
+        "emails": [
+          "principal@pvpsiddhartha.ac.in"
+        ],
+        "principal": "Dr. K. Sivaji Babu",
+        "tpo_head": "Mr. G. Ramesh Babu (9246620777)",
+        "accreditation": "NAAC A+ Grade, NBA Accredited UG Programmes, ISO 21001:2018, AICTE Approved, Permanently Affiliated to JNTUK",
+        "established_year": 1998
+      },
+      "institutional_data": {
+        "official_logo_source": "https://www.pvpsiddhartha.ac.in/new_images/header_f.jpg",
+        "location": {
+          "address": "Devabhaktuni Ramalingeswara Rao Road, Kanuru, Vijayawada, Krishna District, Andhra Pradesh - 520007",
+          "city": "Kanuru, Vijayawada",
+          "state": "Andhra Pradesh",
+          "pincode": "520007",
+          "map_url": "https://www.pvpsiddhartha.ac.in/contact_us_new.html"
+        },
+        "contact": {
+          "phone_numbers": [
+            "0866-2581699",
+            "+91-866-6528285"
+          ],
+          "admission_helpline": [
+            "0866-2581699",
+            "9490958212"
+          ],
+          "official_email": "principal@pvpsiddhartha.ac.in",
+          "official_website": "https://www.pvpsiddhartha.ac.in/"
+        },
+        "administration": {
+          "principal_name": "Dr. K. Sivaji Babu",
+          "hod_names": "CSE: Dr. A. Jayalakshmi | CSE(AI&ML/DS): Dr. B. Janakiramaiah | IT: Dr. B.V. Subba Rao | ECE: Dr. C. Subba Rao | EEE: Dr. Ch. Padmanabha Raju | ME: Dr. B. Raghu Kumar | Civil: Dr. V. Jagadish | MBA: Dr. P. Adi Lakshmi | FED: Dr. M. Sri Lakshmi"
+        },
+        "admissions": {
+          "admission_details": "APSCHE CET-based admission: APEAPCET (I B.Tech), APECET (Lateral Entry 10%), APPGECET/GATE (M.Tech), APICET (MBA). 70% Category-A Convenor quota, 30% Category-B Management/NRI.",
+          "required_documents": "PENDING_VERIFICATION",
+          "seat_intake": "Sanctioned Intake (Mandatory Disclosure): B.Tech 780 (+78 EWS = 858: CSE 240, ECE 120, IT 120, EEE 60, ME 60, CE 60, AI&ML 60, DS 60); MBA 60 (+6 EWS); M.Tech 12 (+2 EWS)."
+        },
+        "academics": {
+          "courses_offered": "B.Tech (CSE, CSE-AI&ML, CSE-Data Science, IT, ECE, EEE, Mechanical, Civil), M.Tech (Machine Design, Microwave & Communication Engg), and MBA.",
+          "syllabus_links": "https://www.pvpsiddhartha.ac.in/academicregulations_n.html",
+          "examination_schedule": "Autonomous Examination Committee chaired by Dr. P. Sai Kiran; regulations PVP23/PVP20 (B.Tech), PVP24 (MBA), PVP25 (M.Tech).",
+          "college_hours": "PENDING_VERIFICATION",
+          "academic_calendar": "https://www.pvpsiddhartha.ac.in/academiccalender_n.html"
+        },
+        "fees_and_aid": {
+          "fees": "2024-25 Mandatory Disclosure (Category-A Convenor Quota): B.Tech Yr I & II Rs. 1,05,000, Yr III Rs. 77,000, Yr IV Rs. 70,000; M.Tech Rs. 90,000/yr; MBA Rs. 60,000/yr; APHERMC refund norms. Updated 2026-27 newly admitted fee schedule PENDING_VERIFICATION.",
+          "hostel_fees": "PENDING_VERIFICATION",
+          "scholarships": "AP State & Central Government full tuition fee reimbursement for eligible students plus institutional financial aid for UIF international fellows."
+        },
+        "career_services": {
+          "placement_statistics": "2025-26 Placements: 1,124 total offers across 87+ participating companies with Rs. 48 LPA highest salary offered (CSE 254, ECE 166, MECH 148, IT 121, EEE 99, AIML 91, DS 91, CIVIL 66, MBA 88).",
+          "internship_policy": "189 internship offers reported on official T&P portal along with paid industrial internship guidance."
+        },
+        "campus_life": {
+          "hostel_details": "Separate Girls Hostel (Tadigadapa 100 Feet Road, 68 rooms, ~300 capacity, Wi-Fi, solar hot water, steam kitchen) & Boys Hostel (SIHM Pinnamaneni Poly Clinic Road, Vijayawada).",
+          "library_details": "Central Library (720 sq. m.): 56,502 volumes, 11,781 titles, 14,963 e-books, 582 e-journals, LIBSYS10 & Knimbus remote access; open 8 AM-8 PM (Sundays 9 AM-1 PM).",
+          "facilities": "Computing & engineering laboratories (ANSYS, MATLAB, Creo), auditorium, high-speed internet, sports & separate men's/women's gymnasiums.",
+          "canteen_and_menu": "Cafeteria listed in Campus Facilities; detailed menu & prices PENDING_VERIFICATION",
+          "sports_facilities": "Outdoor & indoor sports (volleyball, basketball, football, cricket nets, athletics, TT, chess, carroms) and separate gyms; alumni include Arjuna Awardee B. Chetan Anand.",
+          "campus_events": "PENDING_VERIFICATION",
+          "mess_and_bus_timetable": "PENDING_VERIFICATION",
+          "dress_code": "PENDING_VERIFICATION",
+          "student_committees": "Anti-Ragging Committee, Internal Complaints Committee & Women's Cell, SC/ST Committee, Student Council",
+          "anti_ragging_helpline": "Dr. Ch. Padmanabha Raju: 9246400881 | Administrative Office: 0866-2581699"
+        }
+      },
+      "last_verified": "2026-11-12",
+      "supported_categories": [
+        "admissions",
+        "admission_documents",
+        "seat_intake",
+        "courses",
+        "syllabus",
+        "examinations",
+        "fees",
+        "scholarships",
+        "placements",
+        "internships",
+        "hostel",
+        "library",
+        "facilities",
+        "canteen",
+        "sports",
+        "college_location",
+        "college_hours",
+        "contact_info",
+        "campus_events",
+        "holidays_and_vacations",
+        "mess_and_bus_timetable",
+        "department_hod",
+        "principal_info",
+        "dress_code",
+        "student_committees",
+        "anti_ragging"
+      ]
+    }
+  ]
+}

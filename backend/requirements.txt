@@ -1,0 +1,13 @@
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.12.5
+pydantic-settings==2.14.2
+scikit-learn==1.9.0
+joblib==1.5.3
+numpy==2.5.1
+SQLAlchemy==2.0.51
+psycopg2-binary==2.9.12
+httpx==0.28.1
+pytest==9.1.1
+PyJWT==2.13.0
+

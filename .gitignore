@@ -1,0 +1,38 @@
+# Environment and credential files (never commit secrets or local overrides)
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+*.key
+*.pem
+*.secret
+*.cert
+*.crt
+
+# Token revocation stores & sensitive runtime data
+**/revoked_tokens.json
+backend/app/data/revoked_tokens.json
+*.db
+*.sqlite
+*.sqlite3
+
+# Python / Backend
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/*.tsbuildinfo
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+
+
+# Local student feedback data
+/backend/app/data/student_feedback.json
