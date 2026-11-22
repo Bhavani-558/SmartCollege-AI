@@ -15,7 +15,7 @@ from pathlib import Path
 from typing import Any
 
 import jwt
-from fastapi import Depends
+from fastapi import Depends, Request, HTTPException
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 
 from backend.app.services.data_store import ChatbotDomainError
@@ -299,9 +299,9 @@ _http_bearer = HTTPBearer(auto_error=False)
 
 
 def get_current_admin(
+    request: Request,
     credentials: HTTPAuthorizationCredentials | None = Depends(_http_bearer),
     settings: Settings = Depends(get_settings),
-    request: Request = Depends(),
 ) -> AdminUserResponse:
     """FastAPI reusable dependency: validates token from cookie or Authorization header.
     Returns active AdminUserResponse.

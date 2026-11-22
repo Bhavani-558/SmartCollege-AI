@@ -45,27 +45,21 @@ export function removeStoredAdminToken(): void {
   }
 }
 
-function getAuthHeaders(explicitToken?: string | null): Record<string, string> {
-  const token = explicitToken ?? getStoredAdminToken();
-  if (!token) {
-    return {};
-  }
-  return {
-    Authorization: `Bearer ${token}`,
-  };
+function getAuthHeaders(): Record<string, string> {
+  return {};
 }
 
 export const adminService = {
   // Authentication Endpoints
   async login(credentials: { username: string; password: string }): Promise<AdminLoginResponse> {
     try {
+      removeStoredAdminToken();
+
       const response = await apiClient.post<AdminLoginResponse>(
         "/api/admin/auth/login",
         credentials
       );
-      if (response.data.access_token) {
-        setStoredAdminToken(response.data.access_token);
-      }
+
       return response.data;
     } catch (error) {
       throw normalizeApiError(error);
@@ -74,25 +68,18 @@ export const adminService = {
 
   async logout(): Promise<void> {
     try {
-      const token = getStoredAdminToken();
-      if (token) {
-        await apiClient.post(
-          "/api/admin/auth/logout",
-          {},
-          { headers: getAuthHeaders(token) }
-        );
-      }
+      await apiClient.post("/api/admin/auth/logout", {});
     } catch {
-      // Even if network or token invalid, continue local cleanup
+      // Continue local cleanup even if the server request fails.
     } finally {
       removeStoredAdminToken();
     }
   },
 
-  async getMe(explicitToken?: string | null): Promise<AdminUser> {
+  async getMe(): Promise<AdminUser> {
     try {
       const response = await apiClient.get<AdminUser>("/api/admin/auth/me", {
-        headers: getAuthHeaders(explicitToken),
+        headers: getAuthHeaders(),
       });
       return response.data;
     } catch (error) {

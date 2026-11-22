@@ -46,9 +46,9 @@ _bearer = HTTPBearer(auto_error=False)
 )
 def admin_login(
     payload: AdminLoginRequest,
-    settings: Settings = Depends(get_settings),
     request: Request,
     response: Response,
+    settings: Settings = Depends(get_settings),
 ) -> AdminLoginResponse:
     # Rate limiting ... (same as before up to token creation)
     ip = request.client.host
@@ -100,73 +100,7 @@ def admin_login(
         "expires_in": expires_in,
         "username": payload.username.strip(),
     }
-    payload: AdminLoginRequest,
-    settings: Settings = Depends(get_settings),
-    request: Request = Depends(),
-) -> AdminTokenResponse:
-    # Rate limiting: allow max 5 failed attempts per IP per minute
-    ip = request.client.host
-    now = time.time()
-    # Initialize attempt list for this IP
-    attempts = _login_attempts.get(ip, [])
-    # Keep only attempts within the last 60 seconds
-    attempts = [t for t in attempts if now - t < 60]
-    _login_attempts[ip] = attempts
-    if len(attempts) >= 5:
-        raise HTTPException(status_code=429, detail="Too many login attempts. Try again later.")
 
-    """Authenticate administrator and return JWT bearer token."""
-    # Ensure admin credentials are affirmatively configured
-    if not settings.admin_username or (not settings.admin_password and not settings.admin_password_hash):
-        raise AdminConfigurationError("Admin credentials are not configured on this server.")
-
-    # Ensure JWT secret is valid and meets minimum strength
-    valid_secret = validate_jwt_secret(settings.admin_jwt_secret)
-
-    if not authenticate_admin(payload.username, payload.password, settings):
-        # Record failed attempt for rate limiting
-    attempts.append(now)
-    _login_attempts[ip] = attempts
-    raise AdminAuthError("Invalid username or password.")
-
-    token, expires_in = create_access_token(
-        subject=payload.username.strip(),
-        secret_key=valid_secret,
-        algorithm=settings.admin_jwt_algorithm,
-        expires_delta_minutes=settings.admin_token_expiry_minutes,
-    )
-
-        # Set HttpOnly cookie for the token
-    from fastapi.responses import JSONResponse
-    response = JSONResponse(content={
-        "access_token": token,
-        "token_type": "bearer",
-        "expires_in": expires_in,
-        "username": payload.username.strip(),
-    })
-    # Determine SameSite based on environment
-    same_site = "strict" if os.getenv("PRODUCTION") == "true" else "lax"
-    response.set_cookie(
-        key="access_token",
-        value=token,
-        httponly=True,
-        secure=bool(os.getenv("PRODUCTION")),
-        samesite=same_site,
-        max_age=expires_in,
-    )
-    # Set CSRF token cookie (non‑HttpOnly) using double‑submit pattern
-    csrf_token = secrets.token_urlsafe(32)
-    response.set_cookie(
-        key="XSRF-TOKEN",
-        value=csrf_token,
-        httponly=False,
-        secure=bool(os.getenv("PRODUCTION")),
-        samesite=same_site,
-        max_age=expires_in,
-    )
-    # Store CSRF token in request state for validation (optional)
-    request.state.csrf_token = csrf_token
-    return response
 
 
 @router.post(
@@ -179,10 +113,10 @@ def admin_login(
     description="Revokes the active JWT access token on the server so it cannot be reused.",
 )
 def admin_logout(
+    response: Response,
     current_admin: AdminUserResponse = Depends(get_current_admin),
     credentials: HTTPAuthorizationCredentials | None = Depends(_bearer),
     settings: Settings = Depends(get_settings),
-    response: Response,
 ) -> AdminLogoutResponse:
     """Revoke the current authentication token and clear auth cookies."""
     if credentials:

@@ -1,9 +1,12 @@
-import React, { createContext, useCallback, useContext, useEffect, useState } from "react";
-import {
-  adminService,
-  getStoredAdminToken,
-  removeStoredAdminToken,
-} from "../services/adminService";
+
+import React, {
+  createContext,
+  useCallback,
+  useContext,
+  useEffect,
+  useState,
+} from "react";
+import { adminService } from "../services/adminService";
 import type { AdminUser } from "../types/admin";
 
 interface AdminAuthContextType {
@@ -18,35 +21,31 @@ interface AdminAuthContextType {
   checkSession: () => Promise<boolean>;
 }
 
-const AdminAuthContext = createContext<AdminAuthContextType | undefined>(undefined);
+const AdminAuthContext = createContext<AdminAuthContextType | undefined>(
+  undefined
+);
 
-export const AdminAuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [token, setToken] = useState<string | null>(() => getStoredAdminToken());
+export const AdminAuthProvider: React.FC<{ children: React.ReactNode }> = ({
+  children,
+}) => {
+  const [token, setToken] = useState<string | null>(null);
   const [adminUser, setAdminUser] = useState<AdminUser | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [authError, setAuthError] = useState<string | null>(null);
 
   const checkSession = useCallback(async (): Promise<boolean> => {
-    const existingToken = getStoredAdminToken();
-    if (!existingToken) {
-      setToken(null);
-      setAdminUser(null);
-      setIsLoading(false);
-      return false;
-    }
-
     try {
-      const user = await adminService.getMe(existingToken);
-      setToken(existingToken);
+      const user = await adminService.getMe();
+
+      setToken("cookie-session");
       setAdminUser(user);
-      setIsLoading(false);
       return true;
     } catch {
-      removeStoredAdminToken();
       setToken(null);
       setAdminUser(null);
-      setIsLoading(false);
       return false;
+    } finally {
+      setIsLoading(false);
     }
   }, []);
 
@@ -54,21 +53,29 @@ export const AdminAuthProvider: React.FC<{ children: React.ReactNode }> = ({ chi
     void checkSession();
   }, [checkSession]);
 
-  const login = async (credentials: { username: string; password: string }): Promise<void> => {
+  const login = async (
+    credentials: { username: string; password: string }
+  ): Promise<void> => {
     setAuthError(null);
     setIsLoading(true);
+
     try {
-      const response = await adminService.login(credentials);
-      setToken(response.access_token);
-      try {
-        const user = await adminService.getMe(response.access_token);
-        setAdminUser(user);
-      } catch {
-        setAdminUser({ username: response.username, role: "admin" });
-      }
+      await adminService.login(credentials);
+
+      // Verify the session using the HttpOnly authentication cookie.
+      const user = await adminService.getMe();
+
+      setToken("cookie-session");
+      setAdminUser(user);
     } catch (err: unknown) {
+      setToken(null);
+      setAdminUser(null);
+
       const errorMsg =
-        err instanceof Error ? err.message : "Failed to sign in. Please verify your credentials.";
+        err instanceof Error
+          ? err.message
+          : "Failed to sign in. Please verify your credentials.";
+
       setAuthError(errorMsg);
       throw err;
     } finally {
@@ -78,10 +85,10 @@ export const AdminAuthProvider: React.FC<{ children: React.ReactNode }> = ({ chi
 
   const logout = async (): Promise<void> => {
     setIsLoading(true);
+
     try {
       await adminService.logout();
     } finally {
-      removeStoredAdminToken();
       setToken(null);
       setAdminUser(null);
       setAuthError(null);
@@ -112,8 +119,10 @@ export const AdminAuthProvider: React.FC<{ children: React.ReactNode }> = ({ chi
 
 export function useAdminAuth(): AdminAuthContextType {
   const context = useContext(AdminAuthContext);
+
   if (!context) {
     throw new Error("useAdminAuth must be used within an AdminAuthProvider");
   }
+
   return context;
 }
